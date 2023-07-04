@@ -1,0 +1,62 @@
+.Mobiletab_Body {
+    /* max-width: 757px;    */
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    padding: 15px;
+    margin: auto;
+}
+
+.Mobiletab_Tabnameheading {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Mobiletab_Tabspan {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Mobiletab_Nametab {
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fe950a;
+}
+
+.Mobiletab_Unorder {
+    list-style: none;
+    border-top: 1px solid #e2e2e2;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1350px) {
+
+    .Mobiletab_Body {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+    .Mobiletab_Body {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width:767px) {
+
+    .Mobiletab_Body {
+        border-radius: 5px;   
+    }
+
+    .Mobiletab_Unorder {
+        border: none;
+    }
+}
+    

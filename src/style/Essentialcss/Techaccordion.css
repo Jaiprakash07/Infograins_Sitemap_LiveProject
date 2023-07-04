@@ -1,0 +1,83 @@
+.Tech_tech .Tech_Acchead .accordion-button {
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #f9f9f9;
+}
+
+.Tech_Acchead:hover .accordion-button {
+    color: #fe950a;
+}
+
+.Tech_Accbody {
+    background-color: white;
+}
+
+.Tech_Accinside {
+    display: flex;
+    /* display: inline-flex; */
+    justify-content: space-between;
+}
+
+.Tech_Accinsidehead {
+    font-size: 16px;
+}
+
+.Tech_tech .Tech_Acc:last-of-type {
+    /* border: 1px solid grey; */
+    border-top-right-radius: 0.195rem;
+    border-bottom-right-radius: 0.195rem;
+    border-top-left-radius: 0.195rem;
+    border-bottom-left-radius: 0.195rem;
+}
+
+.Tech_Hideacc {
+    display: none;
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1350px) {
+
+    .Tech_Accinside {
+        width: 100%;
+    }
+
+    .Tech_Colwidth {
+        width: 25%;
+    }
+
+    .Tech_Acchead {
+        width: 100%;
+    }
+
+    .collapse {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .Tech_Accbody {
+        padding: 15px 15px !important;
+    }
+
+    .Tech_Accinside {
+        width: 100%;
+    }   
+
+    .Tech_Colwidth {
+        width: 32%;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width:767px) {
+    
+    .Tech_Accinside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Tech_Accinsidehead {
+        margin-top: 20px;
+    }
+}

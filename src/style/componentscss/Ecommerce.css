@@ -1,0 +1,71 @@
+.Ecommerce_Body {
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    /* border: 1px solid #e2e2e2; */
+    background-color: white;
+    padding: 15px;
+}
+
+.Ecommerce_Head {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0px
+}
+
+.Ecommerce_Span {
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fe950a;
+}
+
+.Ecommerce_Content {
+    display: flex;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.Ecommerce_heading {
+    width: 93px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 3%;
+    margin: 10px 18px;
+}
+
+.Ecommerce_Comp {
+    width: 592px;   
+    border-left: 1px solid #e2e2e2;
+}
+
+
+@media screen and (min-width:300px) and (max-width:767px) {
+    
+    .Ecommerce_Body {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .Ecommerce_Content {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #e2e2e2;
+        border-radius: 5px;
+    }
+
+    .Ecommerce_heading {
+        text-align: center;
+        padding: 15px 0px !important;
+        margin: auto !important;
+    }
+
+    .Ecommerce_Comp {
+        width: 100%;
+        border: none;
+    }
+}
+

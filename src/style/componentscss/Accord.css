@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px) and (max-width: 1350px) {
+
+    .Accordion_Body {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .Accordion_Body {
+        /* width: 290px; */
+        width: 100%;
+    }   
+}

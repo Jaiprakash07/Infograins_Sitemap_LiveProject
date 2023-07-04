@@ -1,0 +1,103 @@
+.Countries_Coun,
+.Countries_States,
+.Countries_Cities {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid #e2e2e2;
+}
+
+.Countries_Headwidth {
+    width: 21%;
+}
+
+.Countries_Head {
+    /* width: 93px; */
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 3%;
+    margin: 10px 18px;
+}
+
+.Countries_Content {
+    width: 79%;
+}
+
+.Countries_Content {
+    /* max-width: 592px; */
+    width: 592px;
+    border-left: 1px solid #e2e2e2;
+}
+
+.Countries_Cities {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1350px) {
+
+    .Countries_Coun,
+    .Countries_States,
+    .Countries_Cities {
+        width: 100%;
+    }
+
+    .Countries_Headwidth {
+        width: 20%;
+    }
+
+    .Countries_Head {
+        width: 100%;
+    }
+
+    .Countries_Content {
+        width: 80%;
+        /* width: 500px; */
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .Countries_Coun,
+    .Countries_States,
+    .Countries_Cities {
+        width: 100%;
+    }
+
+    .Countries_Headwidth {
+        width: 32%; 
+    }
+
+    .Countries_Head {
+        width: 100%;
+    }
+
+    .Countries_Content {
+        width: 335px;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width:767px) {
+    
+    .Countries_Coun,
+    .Countries_States,
+    .Countries_Cities {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #e2e2e2;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+
+    .Countries_Headwidth {
+        width: 100%;
+        text-align: center;
+        /* margin-top: 10px; */
+    }
+
+    .Countries_Content {
+        width: 100%;
+        border: none;
+    }
+}

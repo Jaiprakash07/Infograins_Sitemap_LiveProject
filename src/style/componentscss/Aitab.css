@@ -1,0 +1,27 @@
+.Ai_Body {
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    /* border: 1px solid #e2e2e2; */
+    background-color: white;
+    padding: 15px;
+}
+
+.Ai_Head {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0px
+}
+
+.Ai_Span {
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fe950a;
+}
+
+.Ai_Content {
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,4 +1,15 @@
 .App {
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* .App {
+  width: 1150px;
+  background-color: aqua;
+  margin: auto;
+} */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,0 +1,213 @@
+.Main_Tab {
+    width: 100%;
+    /* height: 100%; */
+    background-color: #f9f9f9;
+}
+
+.Tabs_Body {
+    width: 1120px;
+    padding: 5px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.Tabs_Sidebar {
+    display: none;
+}
+
+.Tabs_Head {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fe950a;
+    padding-left: 25px;
+}
+
+.Mobile_View {
+    display: none;
+}
+
+.Tabs_Content .Tabs_Colone {
+    position: sticky !important;
+    top: 10px !important;
+    /* left: 0 !important; */
+    max-width: 344px !important;
+    height: 700px !important;
+}
+
+.Tabs_Content .Tabs_Colone .flex-column {
+    max-width: 344px !important;
+}
+
+
+.Tabs_Content .Tabs_Colone .active {
+    background-color: white !important;
+    border-top: 1px solid #fe950a;
+    border-bottom: 1px solid #fe950a;
+    border-left: 4px solid #fe950a;
+    margin-right: -1px !important;
+}
+
+.Tabs_Content .Tabss {
+    width: 344px;
+    margin-top: -4px;
+}
+
+.Tabs_Content {
+    width: 100%;
+    display: flex;
+    margin-top: 4px;
+    /* margin-bottom: 500px; */
+    /* padding: 12px; */
+}
+
+.Tabs_Content .Tabs_lists {
+    /* width: 333px; */
+    font-size: 14px;
+    font-weight: 500;
+    color: black !important;
+    background-color: rgb(245 244 245) !important;
+    border-radius: 0px !important;
+    margin: 4px;
+    margin-left: 10px;
+    padding: 13px 0px;
+    padding-left: 15px;
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1350px) {
+    .Tabs_Body {
+        width: 90%;
+        /* width: 1050px; */
+    }
+
+    .Tabs_Row {
+        width: 100%;
+    }
+
+    .Tabs_Content .Tabs_Colone .flex-column {
+        width: 100% !important;
+        margin: 0px;
+    }
+
+    .Tabs_Content .Tabs_Colone {
+        /* max-width: 300px !important; */
+        width: 30% !important;
+        padding: 0px 0px;
+    }
+
+    .Tabs_Content .Tabs_Coltwo {
+        width: 70% !important;
+        padding: 0px;
+    }
+
+    .Tabs_Content .Tabss {
+        width: 100%;
+        /* width: 300px; */
+    }
+
+    /*
+    .Tabs_Content .tab-content {
+        width: 730px !important;
+        width: 70% !important;
+    } */
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .Tabs_Row {
+        width: 100%;
+    }
+
+    .Tabs_Body {
+        width: 90%;
+        /* width: 600px; */
+        /* margin: auto; */
+    }
+
+    .Tabs_Content {
+        width: 100%;
+    }
+
+    .Tabs_Content .Tabs_Colone {
+        width: 30%;
+        padding: 0px;
+    }
+
+    .Tabs_Content .Tabss {
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .Tabs_Content .Tabs_lists {
+        font-size: 13px;
+    }
+
+    .Tabs_Content .Tabs_Coltwo {
+        width: 70%;
+        /* width: 400px; */
+        padding: 0px;
+    }
+
+    .Tabs_Content .tab-content {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:767px) {
+
+    .Tabs_Body {
+        width: 95%;
+    }
+
+    .Tabs_Bars {
+        display: flex;
+        /* background-color: white; */
+        /* box-shadow: 0px 15px 10px -15px #111; */
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+
+    .Tabs_Sidebar {
+        display: block;
+        font-size: 27px;
+        margin-top: -8px;
+    }
+
+    .Tabs_Head {
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    .Tabs_Row {
+        width: 100%;
+        margin: 0px !important;
+    }
+
+    .Tabs_Colone {
+        display: none;
+    }
+
+    .Tabs_Coltwo {
+        width: 100% !important;
+        padding: 0px 0px !important;
+    }
+
+    .Mobile_View,
+    .Tabs_Dark {
+        display: block;
+    }
+
+    .Tabs_darker {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 90;
+        opacity: 0.6;
+        /* background: #fe950a; */
+        background: black;
+    }
+}

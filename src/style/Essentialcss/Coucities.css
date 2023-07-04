@@ -1,0 +1,36 @@
+.Coucities_Unorder {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Coucities_list {
+    font-size: 14.4px;
+    font-weight: 500;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0px;
+    padding-left: 20px;
+}
+
+.Coucities_Nav {
+    display: block;
+    color:#4f4f4f;
+    /* color: black; */
+    text-decoration: none;
+}
+
+.Color {
+    width: 155px;
+    color: #fe950a;
+    margin-left: -15px;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+    .Color {
+        width: 100%;
+        height: 25px;
+        font-size: 13px;
+    } 
+}
